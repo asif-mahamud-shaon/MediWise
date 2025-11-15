@@ -1,0 +1,167 @@
+[00:00:16.547] Server  LOG      ✓ Ready in 12.5s
+[00:01:15.778] Server  LOG      ○ Compiling / ...
+[00:01:34.104] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:11.986] Server  LOG      ○ Compiling /blog ...
+[00:05:50.627] Server  LOG      ○ Compiling /login ...
+[00:07:03.136] Server  LOG      ✓ Compiled in 512ms
+[00:07:36.030] Browser LOG     No existing profile found, starting fresh
+[00:07:36.586] Browser LOG     No existing profile found, starting fresh
+[00:09:40.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:45.749] Server  LOG      ✓ Compiled in 710ms
+[00:16:08.990] Server  LOG      ✓ Compiled in 226ms
+[00:16:50.656] Server  LOG      ✓ Compiled in 735ms
+[00:16:58.271] Server  LOG      ○ Compiling /contact ...
+[00:17:09.164] Server  LOG      ✓ Compiled in 209ms
+[00:17:28.348] Server  LOG      ✓ Compiled in 300ms
+[00:20:47.468] Server  LOG      ✓ Compiled in 1383ms
+[00:21:24.026] Server  LOG      ✓ Compiled in 361ms
+[00:21:45.621] Server  LOG      ✓ Compiled in 292ms
+[00:22:13.972] Browser LOG     selectedDept changed to:  departments loaded: 0
+[00:22:13.972] Browser LOG     API params: {"limit":12,"status":"approved"}
+[00:22:13.972] Browser LOG     selectedDept changed to:  departments loaded: 0
+[00:22:13.972] Browser LOG     API params: {"limit":12,"status":"approved"}
+[00:22:13.972] Browser LOG     selectedDept changed to: 3042dc79-45fb-47e1-9467-0e1b79e7d6a9 departments loaded: 0
+[00:22:13.972] Browser LOG     Fetching doctors for department: 3042dc79-45fb-47e1-9467-0e1b79e7d6a9
+[00:22:13.972] Browser LOG     API params: {"departmentId":"3042dc79-45fb-47e1-9467-0e1b79e7d6a9","limit":12,"status":"approved"}
+[00:22:14.302] Browser LOG     Received doctors: 2
+[00:22:14.303] Browser LOG     Received doctors: 12
+[00:22:14.679] Browser LOG     Received doctors: 12
+[00:22:19.440] Browser LOG     selectedDept changed to: 32c9ff5b-c7fa-41b1-aa07-717ce1d3f322 departments loaded: 35
+[00:22:19.440] Browser LOG     Fetching doctors for department: 32c9ff5b-c7fa-41b1-aa07-717ce1d3f322
+[00:22:19.440] Browser LOG     API params: {"departmentId":"32c9ff5b-c7fa-41b1-aa07-717ce1d3f322","limit":12,"status":"approved"}
+[00:22:19.810] Browser LOG     Received doctors: 0
+[00:22:22.741] Browser LOG     selectedDept changed to: 63d6b8b5-150d-4bb8-ae0b-def809fc3585 departments loaded: 35
+[00:22:22.741] Browser LOG     Fetching doctors for department: 63d6b8b5-150d-4bb8-ae0b-def809fc3585
+[00:22:22.741] Browser LOG     API params: {"departmentId":"63d6b8b5-150d-4bb8-ae0b-def809fc3585","limit":12,"status":"approved"}
+[00:22:23.276] Browser LOG     Received doctors: 5
+[00:23:46.573] Browser LOG     No existing profile found, starting fresh
+[00:23:47.569] Browser LOG     No existing profile found, starting fresh
+[00:24:09.277] Browser ERROR   Login error: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","data":"{\"email\":\"admin@mediwise.com\",\"password\":\"admiin123\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/auth/login","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/2d254_141e2971._.js:3706:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/2d254_141e2971._.js:4221:221)\n    at Axios.request (http://localhost:3000/_next/static/chunks/2d254_141e2971._.js:5025:49)\n    at async login (http://localhost:3000/_next/static/chunks/OneDrive_Desktop_mediwise_frontend_27e1be94._.js:113:26)\n    at async handleSubmit (http://localhost:3000/_next/static/chunks/OneDrive_Desktop_mediwise_frontend_app_login_page_tsx_c78f3ffa._.js:40:13)","status":401}
+[00:24:09.648] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:16.884] Server  LOG      ✓ Compiled in 1815ms
+[00:33:29.080] Server  LOG      ✓ Compiled in 1194ms
+[00:33:36.972] Server  LOG      ✓ Compiled in 215ms
+[00:33:37.230] Browser ERROR   ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx:396:14
+Parsing ecmascript source code failed
+  394 |                 </div>
+  395 |               </div>
+> 396 |             </>
+      |              ^^
+  397 |           )}
+  398 |
+  399 |           {/* Render different sections based on activeSection */}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Server Component]
+[00:34:05.509] Browser ERROR   ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx:396:14
+Parsing ecmascript source code failed
+  394 |                 </div>
+  395 |               </div>
+> 396 |             </>
+      |              ^^
+  397 |           )}
+  398 |
+  399 |           {/* Render different sections based on activeSection */}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Server Component]
+[00:45:52.970] Server  LOG      ✓ Compiled in 5.6s
+[03:22:48.976] Server  LOG      ○ Compiling /admin/jobs ...
+[03:23:32.258] Server  LOG      ○ Compiling /admin/appointments ...
+[03:24:11.247] Server  LOG      ✓ Compiled in 803ms
+[03:24:19.797] Server  LOG      ✓ Compiled in 320ms
+[03:24:33.015] Server  LOG      ✓ Compiled in 427ms
+[03:24:33.578] Browser ERROR   uncaughtError: ReferenceError: monthlyData is not defined
+[03:24:47.743] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:24:47.753] Server  LOG      ✓ Compiled in 274ms
+[03:24:52.450] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:58.800] Server  LOG      ✓ Compiled in 257ms
+[03:25:23.005] Server  LOG      ✓ Compiled in 235ms
+[03:25:41.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:31:45.484] Server  LOG      ✓ Compiled in 1969ms
+[03:32:36.999] Server  LOG      ✓ Compiled in 3.8s
+[03:33:03.909] Server  LOG      ✓ Compiled in 1194ms
+[03:35:50.850] Server  LOG      ○ Compiling /admin/blogs ...
+[03:44:19.325] Server  LOG      ✓ Compiled in 3.1s
+[03:45:35.263] Server  LOG      ✓ Compiled in 921ms
+[03:45:45.526] Server  LOG      ✓ Compiled in 408ms
+[03:45:55.405] Server  LOG      ✓ Compiled in 141ms
+[03:46:29.679] Server  LOG      ✓ Compiled in 804ms
+[03:47:42.716] Server  LOG      ✓ Compiled in 1687ms
+[03:47:58.678] Server  LOG      ✓ Compiled in 279ms
+[03:49:14.907] Server  LOG      ○ Compiling /admin/settings ...
+[03:52:55.779] Server  LOG      ✓ Compiled in 6.3s
+[03:53:00.797] Server  LOG      ✓ Compiled in 268ms
+[03:53:09.250] Server  LOG      ✓ Compiled in 284ms
+[03:53:16.662] Server  LOG      ✓ Compiled in 255ms
+[03:53:25.490] Server  LOG      ✓ Compiled in 330ms
+[03:53:50.790] Server  LOG      ✓ Compiled in 955ms
+[03:55:19.821] Server  LOG      ✓ Compiled in 750ms
+[03:55:41.676] Server  LOG      ✓ Compiled in 1711ms
+[03:55:55.522] Server  LOG      ✓ Compiled in 348ms
+[04:01:48.845] Server  LOG      ✓ Compiled in 3.7s
+[04:01:53.992] Server  LOG      ✓ Compiled in 314ms
+[04:02:05.047] Server  LOG      ✓ Compiled in 316ms
+[04:03:12.664] Server  LOG      ✓ Compiled in 895ms
+[04:03:14.584] Browser ERROR   ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/DashboardContent.tsx:716:6
+Parsing ecmascript source code failed
+  714 |         </div>
+  715 |       </div>
+> 716 |     </div>
+      |      ^^^^^
+  717 |   );
+  718 | }
+  719 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/DashboardContent.tsx [Client Component Browser]
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/DashboardContent.tsx [Client Component SSR]
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/mediwise/frontend/app/admin/dashboard/page.tsx [Server Component]
+[04:03:19.492] Server  LOG      ✓ Compiled in 328ms
+[04:03:28.452] Server  LOG      ✓ Compiled in 370ms
+[04:04:42.567] Server  LOG      ✓ Compiled in 9.2s
+[04:04:43.465] Server  LOG      ✓ Compiled in 305ms
+[04:05:00.580] Server  LOG      ✓ Compiled in 518ms
+[04:07:21.748] Server  LOG      ✓ Compiled in 1527ms
+[04:07:35.500] Server  LOG      ✓ Compiled in 1060ms
+[04:07:48.731] Server  LOG      ✓ Compiled in 336ms
+[04:08:16.993] Server  LOG      ✓ Compiled in 1967ms
+[04:08:25.611] Server  LOG      ✓ Compiled in 238ms
+[04:08:36.436] Server  LOG      ✓ Compiled in 393ms
+[04:08:44.904] Server  LOG      ✓ Compiled in 372ms
+[04:08:54.997] Server  LOG      ✓ Compiled in 354ms
+[04:09:03.377] Server  LOG      ✓ Compiled in 154ms
+[04:09:32.860] Server  LOG      ✓ Compiled in 327ms
+[04:12:37.003] Server  LOG      ✓ Compiled in 6.1s
+[04:25:35.076] Server  LOG      ✓ Compiled in 357ms
+[04:25:55.199] Server  LOG      ✓ Compiled in 387ms
+[04:26:30.715] Server  LOG      ✓ Compiled in 192ms
+[04:26:38.842] Server  LOG      ✓ Compiled in 189ms
+[04:26:54.022] Server  LOG      ✓ Compiled in 308ms
+[04:30:26.392] Server  LOG      ✓ Compiled in 754ms
+[04:32:37.757] Server  LOG      ✓ Compiled in 951ms
+[05:04:02.191] Server  LOG      ○ Compiling /admin/users ...

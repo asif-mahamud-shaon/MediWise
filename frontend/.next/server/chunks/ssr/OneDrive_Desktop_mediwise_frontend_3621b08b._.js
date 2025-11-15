@@ -1,0 +1,3 @@
+module.exports=[77402,(a,b,c)=>{"use strict";b.exports=a.r(15178).vendored["react-ssr"].ReactServerDOMTurbopackClient},13247,a=>{"use strict";var b=a.i(37037);a.s(["default",0,()=>(0,b.jsx)("div",{className:"flex items-center justify-center min-h-screen",children:(0,b.jsx)("div",{className:"animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-600"})})])}];
+
+//# sourceMappingURL=OneDrive_Desktop_mediwise_frontend_3621b08b._.js.map

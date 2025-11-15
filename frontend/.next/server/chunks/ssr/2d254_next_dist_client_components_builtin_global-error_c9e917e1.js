@@ -1,0 +1,3 @@
+module.exports=[83592,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(16363);a.n(d("[project]/OneDrive/Desktop/mediwise/frontend/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},81447,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(16363);a.n(d("[project]/OneDrive/Desktop/mediwise/frontend/node_modules/next/dist/client/components/builtin/global-error.js"))},87294,a=>{"use strict";a.i(83592);var b=a.i(81447);a.n(b)}];
+
+//# sourceMappingURL=2d254_next_dist_client_components_builtin_global-error_c9e917e1.js.map

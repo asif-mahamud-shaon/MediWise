@@ -1,0 +1,11 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__60c88916._.js")
+R.c("server/chunks/ssr/OneDrive_Desktop_mediwise_frontend_2cea2ad4._.js")
+R.c("server/chunks/ssr/2d254_next_dist_ee744171._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__2192af20._.js")
+R.c("server/chunks/ssr/2d254_627b125e._.js")
+R.c("server/chunks/ssr/2d254_next_dist_5cd0428b._.js")
+R.c("server/chunks/ssr/OneDrive_Desktop_mediwise_frontend_app_692e8c84._.js")
+R.c("server/chunks/ssr/b1735_mediwise_frontend__next-internal_server_app__global-error_page_actions_c5bf35c1.js")
+R.m(83695)
+module.exports=R.m(83695).exports

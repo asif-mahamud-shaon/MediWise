@@ -1,0 +1,8 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/OneDrive_Desktop_mediwise_frontend_9b3d0b4a._.js",
+  "static/chunks/2d254_693bd2a1._.js"
+],
+    source: "dynamic"
+});

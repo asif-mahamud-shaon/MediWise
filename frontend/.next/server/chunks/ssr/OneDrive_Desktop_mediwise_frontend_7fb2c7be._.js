@@ -1,0 +1,3 @@
+module.exports=[13247,a=>{"use strict";var b=a.i(37037);a.s(["default",0,()=>(0,b.jsx)("div",{className:"flex items-center justify-center min-h-screen",children:(0,b.jsx)("div",{className:"animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-600"})})])},75072,a=>{"use strict";var b=a.i(37037),c=a.i(4839),d=a.i(66733),e=a.i(99752),f=a.i(13247);function g(){let{user:a,loading:g}=(0,e.useAuth)(),h=(0,d.useRouter)();return(0,c.useEffect)(()=>{if(!g)if(a){let b="admin"===a.role?"/admin/dashboard":"patient"===a.role?"/patient/dashboard":"doctor"===a.role?"/doctor/dashboard":"/dashboard";h.push(b)}else h.push("/login")},[a,g,h]),(0,b.jsx)(f.default,{})}a.s(["default",()=>g])}];
+
+//# sourceMappingURL=OneDrive_Desktop_mediwise_frontend_7fb2c7be._.js.map

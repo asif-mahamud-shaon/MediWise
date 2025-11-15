@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Asif%20Mahamud%20Shaon/OneDrive/Desktop/mediwise/frontend/components/Loading.tsx"],"sourcesContent":["const Loading = () => {\r\n  return (\r\n    <div className=\"flex items-center justify-center min-h-screen\">\r\n      <div className=\"animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-600\"></div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Loading;\r\n\r\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,UAAU;IACd,qBACE,4OAAC;QAAI,WAAU;kBACb,cAAA,4OAAC;YAAI,WAAU;;;;;;;;;;;AAGrB;KANM;uCAQS","debugId":null}}]
+}

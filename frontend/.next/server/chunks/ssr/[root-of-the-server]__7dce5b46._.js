@@ -1,0 +1,3 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},48718,a=>{a.n(a.i(66974))},84240,a=>{a.n(a.i(35496))},96905,a=>{a.n(a.i(72157))},30523,a=>{a.n(a.i(20100))},86125,a=>{a.n(a.i(87294))},65327,(a,b,c)=>{let d=Error("Could not parse module '[project]/OneDrive/Desktop/mediwise/frontend/app/appointments/page.tsx'\n\nReturn statement is not allowed here");throw d.code="MODULE_UNPARSABLE",d}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__7dce5b46._.js.map
